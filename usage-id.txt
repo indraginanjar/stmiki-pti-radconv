@@ -1,0 +1,96 @@
+Klik pada "radconv.exe" atau ketik "radconv" atau "radconv.exe" pada command line.
+
+Lalu program akan meminta untuk memasukkan radix input,
+
+Input radix (2,8,10,16) :
+
+radconv akan secara otomatis menyaring masukan dari pengguna,
+masukan yang valid adalah:
+	02	2	10
+	08	8	16
+
+Kemudian radconv akan meminta pengguna untuk memasukkan angka yang akan diolah,
+
+Input number            :
+
+radconv juga akan menyaring masukan dari pengguna sesuai dengan radix yang telah 
+ditentukan sebelumnya
+Masukan yang valid adalah kombinasi dari :
+	Radix 2 (biner), maksimum 70 digit:
+		0
+		1
+
+	Radix 8 (oktal), maksimum 17 digit:
+		0	1	2	3
+		4	5	6	7
+
+	Radix 10 (desimal), maksimum 14 digit:
+		0	1	2	3	4
+		5	6	7	8	9
+
+	Radix 16 (heksadesimal), maksimum 8 digit:
+		0	1	2	3	4	5	6	7
+		8	9	A	B	C	D	E	F
+
+Setelahnya, radconv akan meminta pengguna untuk memasukkan radix dari hasil 
+yang diinginkan,
+
+Output radix (2,8,10,16):
+
+masukan yang valid untuk tahap ini sama dengan input radix.
+
+Setelah menampilkan hasil conversi, radconv akan memberi pilihan untuk mengulang kembali
+keseluruhan proses dengan input yang berbeda atau mengakhiri program. Tekan tombol "ESC"
+untuk mengakhiri program.
+
+
+contoh eksekusi:
+
+d:\radconv.exe
+
+
+                                 Radix Converter
+                                 ---------------
+
+
+Input radix (2,8,10,16) : 08
+Input number            : 5435
+Output radix (2,8,10,16): 16
+Output number           = B1D
+
+
+Tekan 'ESC' untuk mengakhiri atau tombol lainnya untuk mengulang kembali ...
+
+
+Input radix (2,8,10,16) : 10
+Input number            : 7654353
+Output radix (2,8,10,16): 2
+Output number           = 11101001100101111010001
+
+
+Tekan 'ESC' untuk mengakhiri atau tombol lainnya untuk mengulang kembali ...
+
+
+
+                        STMIK Indonesia
+                        Sistem Informasi
+                        Mata Kuliah Pengantar Teknologi Informasi
+                        Kelas Mandiri
+                        Semester I, 2010
+
+                        Kelompok 2:
+                        101100195 Desi Putri Dewi
+                        101100180 Indra Ginanjar
+                        101100034 Muhammad Kadri
+                        101100052 Overson Oscar Manalu
+                        101100015 Reza Parisol
+                        101100068 Rizka Zewesti
+                        101100162 Yendrizal
+
+
+
+
+
+d:\
+
+

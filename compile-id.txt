@@ -1,0 +1,33 @@
+Cara menghasilkan radconv.exe
+
+Kode sumber radconv dapat dikompilasi dengan dua pilihan, CodeBlock IDE  dengan compiler
+MinGW GCC, dan TurboC 3. Kode sumber ini hanya dapat dikompilasi pada lingkungan sistem
+operasi Windows/DOS karena menggunakan beberapa fungsi khusus Windows/DOS
+
+
+:Menggunakan CodeBlock IDE:
+
+Buka project "radconv.cbp"
+Pastikan "Build->Select target->release" telah terpilih untuk mendapatkan berkas
+eksekusi hasil yang kecil dan cepat
+Lalu klik "Build->Build"
+Berkas antara yang terdapat pada folder obj\ dapat dihapus dengan aman.
+Pada folder bin\release akan terbentuk radconv.exe
+
+
+:Menggunakan TurboC 3 IDE:
+
+Buka project "RADCONV.PRJ" lalu klik "Compile->Make"
+Pada folder project akan terbentuk RADCONV.exe
+Berkas antara (RADOP.OBJ dan MAIN.OBJ) dapat dihapus dengan aman.
+
+
+Catatan:
+
+Jika anda melakukan perubahan pada kode sumber menggunakan TurboC3 IDE, IDE ini akan
+mengubah nama berkas sumber menjadi menggunakan huruf KAPITAL. 
+Hal ini bisa berakibat CodeBlock gagal mengkompilasi berkas sumber menjadi berkas 
+eksekusi (bila anda menggunakan CodeBlock setelah TurboC IDE).
+Karena itu telah saya menyiapkan program kecil bernama "tolower.exe" pada folder src\
+yang akan langsung mengganti semua nama folder dan berkas pada folder tersebut menjadi
+menggunakan huruf kecil.
